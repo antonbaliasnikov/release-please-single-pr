@@ -16,6 +16,7 @@ jobs:
     with:
       manifest: '.github/release-please/manifest.json' # Specify the path to the manifest file
       config: '.github/release-please/config.json'     # Specify the path to the configuration file
-      update-cargo-lock: false                         # Update Cargo.lock file
+      update-cargo-lock: true                          # Update Cargo.lock file
+      workspace-dirs: 'core prover zkstack'            # Specify the workspace directories for single PR repos
       publish-to-crates-io: false                      # Enable publishing to crates.io
       upgrade-dependencies: false                      # Upgrade workspace dependencies
