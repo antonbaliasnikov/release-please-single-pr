@@ -12,7 +12,7 @@ core-multiple-3 = { version = "0.1.0", path = "core-multiple-3" }
 prover-multiple-3 = { version = "0.1.0", path = "../prover/prover-multiple-3" }
 
 [workspace.package]
-version = "0.1.0" # x-release-please-version
+version = "0.1.1" # x-release-please-version
 authors = [
     "Anton Baliasnikov <aba@matterlabs.dev>",
 ]
