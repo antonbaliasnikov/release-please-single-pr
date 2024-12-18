@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+members = [
+    "core-multiple-1",
+    "core-multiple-2",
+    "core-multiple-3"
+]
+
+[workspace.dependencies]
+core-multiple-1 = { version = "0.1.0", path = "core-multiple-1" }
+core-multiple-3 = { version = "0.1.0", path = "core-multiple-3" }
+prover-multiple-3 = { version = "0.1.0", path = "../prover/prover-multiple-3" }
+
+[workspace.package]
+version = "0.1.0" # x-release-please-version
+authors = [
+    "Anton Baliasnikov <aba@matterlabs.dev>",
+]
+description = "Test release-please core multiple."
+license = "MIT OR Apache-2.0"
+edition = "2021"

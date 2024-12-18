@@ -1,0 +1,10 @@
+[package]
+name = "prover-multiple-3"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+edition.workspace = true
+description = "Release please multiple prover 3"
+
+[dependencies]
+core-multiple-1.workspace = true

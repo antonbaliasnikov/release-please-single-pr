@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "zkstack_lib_1"
+]
+
+[workspace.dependencies]
+prover-multiple-3 = { version = "0.1.0", path = "../prover/prover-multiple-3" }
+core-multiple-3 = { version = "0.1.0", path = "../core/core-multiple-3" }
+
+[workspace.package]
+version = "0.1.10" # x-release-please-version
+authors = [
+    "Anton Baliasnikov <aba@matterlabs.dev>",
+]
+description = "Test release-please zkstack multiple."
+license = "MIT OR Apache-2.0"
+edition = "2021"

@@ -1,0 +1,21 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+
+  release:
+    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-release-please-support
+    secrets:
+      gh_token: ${{ secrets.RELEASE_TOKEN }}
+      slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+    with:
+      manifest: '.github/release-please/manifest.json' # Specify the path to the manifest file
+      config: '.github/release-please/config.json'     # Specify the path to the configuration file
+      update-cargo-lock: false                         # Update Cargo.lock file
+      publish-to-crates-io: false                      # Enable publishing to crates.io
+      upgrade-dependencies: false                      # Upgrade workspace dependencies

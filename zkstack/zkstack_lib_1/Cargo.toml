@@ -1,0 +1,11 @@
+[package]
+name = "zkstack-multiple-1"
+version.workspace = true
+authors.workspace = true
+license.workspace = true
+edition.workspace = true
+description = "Release please multiple zkstack 1"
+
+[dependencies]
+core-multiple-3.workspace = true
+prover-multiple-3.workspace = true
