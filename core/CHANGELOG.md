@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.1...core-v0.1.2) (2024-12-19)
+
+
+### Bug Fixes
+
+* update core ([a113199](https://github.com/antonbaliasnikov/release-please-single-pr/commit/a113199b4c30052f98ae985bfe82958429002079))
+
 ## [0.1.1](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.0...core-v0.1.1) (2024-12-18)
 
 
