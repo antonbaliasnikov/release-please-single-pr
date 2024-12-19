@@ -18,5 +18,5 @@ jobs:
       config: '.github/release-please/config.json'     # Specify the path to the configuration file
       update-cargo-lock: true                          # Update Cargo.lock file
       workspace-dirs: 'core prover zkstack'            # Specify the workspace directories for single PR repos
-      publish-to-crates-io: false                      # Enable publishing to crates.io
+      publish-to-crates-io: true                       # Enable publishing to crates.io
       upgrade-dependencies: false                      # Upgrade workspace dependencies
