@@ -4,25 +4,25 @@ version = 3
 
 [[package]]
 name = "core-multiple-1"
-version = "0.1.1"
+version = "0.1.2"
 
 [[package]]
 name = "core-multiple-2"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "core-multiple-3",
 ]
 
 [[package]]
 name = "core-multiple-3"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "prover-multiple-3",
 ]
 
 [[package]]
 name = "prover-multiple-3"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "core-multiple-1",
 ]
