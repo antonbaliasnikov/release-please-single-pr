@@ -19,4 +19,4 @@ jobs:
       update-cargo-lock: true                          # Update Cargo.lock file
       workspace-dirs: 'core prover zkstack'            # Specify the workspace directories for single PR repos
       publish-to-crates-io: true                       # Enable publishing to crates.io
-      upgrade-dependencies: false                      # Upgrade workspace dependencies
+      upgrade-dependencies: true                       # Upgrade workspace dependencies
