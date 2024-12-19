@@ -19,5 +19,6 @@ jobs:
       config: '.github/release-please/config.json'     # Specify the path to the configuration file
       update-cargo-lock: true                          # Update Cargo.lock file
       workspace-dirs: 'core prover zkstack'            # Specify the workspace directories for single PR repos
+      org-owner: 'antonbaliasnikov'                    # Specify the organization owner if you want update ownership of the crates
       publish-to-crates-io: true                       # Enable publishing to crates.io
       upgrade-dependencies: true                       # Upgrade workspace dependencies
