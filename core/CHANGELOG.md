@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.2...core-v0.1.3) (2024-12-19)
+
+
+### Features
+
+* update prover and core ([fad6857](https://github.com/antonbaliasnikov/release-please-single-pr/commit/fad6857d619ca748ba04ed7878de2f7efefce061))
+
 ## [0.1.2](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.1...core-v0.1.2) (2024-12-19)
 
 
