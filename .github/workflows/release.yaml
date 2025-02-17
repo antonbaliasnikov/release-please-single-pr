@@ -1,5 +1,10 @@
 name: Release
 
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
 on:
   push:
     branches:
@@ -9,7 +14,7 @@ on:
 jobs:
 
   release:
-    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-release-please-support
+    uses: matter-labs/zksync-ci-common/.github/workflows/release-please.yaml@aba-use-gh-token
     secrets:
       gh_token: ${{ secrets.RELEASE_TOKEN }}
       cargo_registry_token: ${{ secrets.CRATES_IO_TOKEN }}
