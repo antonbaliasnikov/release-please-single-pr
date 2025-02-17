@@ -7,9 +7,9 @@ members = [
 ]
 
 [workspace.dependencies]
-core-multiple-1 = { version = "0.1.0", path = "core-multiple-1" }
-core-multiple-3 = { version = "0.1.0", path = "core-multiple-3" }
-prover-multiple-3 = { version = "0.1.0", path = "../prover/prover-multiple-3" }
+core-multiple-1 = { version = "0.1.4", path = "core-multiple-1" }
+core-multiple-3 = { version = "0.1.4", path = "core-multiple-3" }
+prover-multiple-3 = { version = "0.1.4", path = "../prover/prover-multiple-3" }
 
 [workspace.package]
 version = "0.1.4" # x-release-please-version
