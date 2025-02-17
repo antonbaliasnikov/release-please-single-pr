@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.5](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.4...core-v0.1.5) (2025-02-17)
+
+
+### Bug Fixes
+
+* test token ([7730057](https://github.com/antonbaliasnikov/release-please-single-pr/commit/77300575383fd5c636df9a31a2beaa583ae8d757))
+* test token ([78fdbc1](https://github.com/antonbaliasnikov/release-please-single-pr/commit/78fdbc1d347ae7c0ba1b7eb4ae5fce9ef7c85221))
+
 ## [0.1.4](https://github.com/antonbaliasnikov/release-please-single-pr/compare/core-v0.1.3...core-v0.1.4) (2024-12-19)
 
 
